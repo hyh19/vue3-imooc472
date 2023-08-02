@@ -19,7 +19,7 @@ export default {
       // 2. 感知到 change 这个action，执行store 中 actions 下面的 change 方法
       // 3. commit 提交一个叫做 change 的数据改变
       // 4. mutation 感知到提交的change改变，执行 change 方法改变数据
-      this.$store.commit('change', 'hello world');
+      this.$store.dispatch('change', 'hello world');
     }
   }
 }

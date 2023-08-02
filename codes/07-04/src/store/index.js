@@ -12,10 +12,10 @@ export default createStore({
   },
   // dispatch 和 actions 做关联
   actions: {
-    // change(store, str) {
-    //   setTimeout(() => {
-    //     store.commit('change', str)
-    //   }, 2000)
-    // }
+    change(store, str) {
+      setTimeout(() => {
+        store.commit('change', str)
+      }, 2000)
+    }
   }
 })
